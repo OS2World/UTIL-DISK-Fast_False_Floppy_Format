@@ -1,0 +1,68 @@
+FFFF.EXE	Fast False Floppy Formatter
+
+This is a program to do a quick scrub of a floppy disk directory.
+
+FFFF requires at least one parameter, namely a floppy disk identifier so
+a minimal invocation would be something like
+
+	ffff a
+or
+	ffff b
+
+The above forms of the command will effectively clear the directory and
+FAT of the nominated disk.  This is equivalent to reformatting the disk
+but only works on a used disk.  It is MUCH faster than a true reformat.
+
+If the disk has a volume label it will be removed.  To keep any existing
+volume label issue a command of the form
+
+	ffff a /v
+or
+	ffff b /v
+
+and to force a new volume label just stick it onto the end of the command
+
+	ffff a /v new_label
+
+If spaces are wanted inside the label just enclose the volume label in
+quotes:
+
+	ffff a /v "new label"
+
+FFFF will not clear clusters marked in the FAT as faulty.
+
+This is a FAPI program so it will work in the DOS box.  I've had trouble
+with it under pure MSDOS where it has trouble fetching the characteristics
+of the diskette.  I do not know the cause; maybe the DSK_GETDEVICEPARAMS
+variant of DosDevIOCtl() is not quite bindable to an MSDOS equivalent?
+
+FFFF is tri-lingual.  It knows English, French and Dutch and talks to you
+in one of those languages if your country code is set appropriately.  The
+default language is English.  If someone wants to add Italian, Spanish or
+anything else, feel free, and re-submit to the public domain.
+
+Jon Saxton, 16/4/90
+(With thanks to Paul Daamen for the Dutch translation).
+
+-------------------------------------------------------------------------
+
+Voil… une programme pour effacer rapidement les fichiers d'une disquette.
+
+FFFF demands au moins une paramˆtre sur la ligne de commande.  Vous devez
+donner la nom d'un lecteur de disquettes, par exemple:
+
+	ffff a
+ou
+	ffff b
+
+Ces commandes effaceront la disquette nomine‚.  Si la disquette a une
+‚tiquette de volume puis l'‚tiquette serait depos‚e aussi.  Pour retainer
+l'‚tiquette de volume vous pouvez mettre le ®/v¯ aprŠs la nom de disquette,
+comme ‡a:
+
+	ffff b /v
+
+Pour mettre une nouvelle ‚tiquette de volume s–r la disquette vous donnez
+l'‚tiquette aprŠs le ®/v¯
+
+	ffff b /v "volume deux"

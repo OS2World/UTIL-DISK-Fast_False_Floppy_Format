@@ -1,0 +1,143 @@
+;ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+;º
+;º	This is the source file for messages displayed by my "Fast False
+;º	Floppy Format" program.  It is processed by the MKMSGF utility and
+;º	(optionally) bound to the executable code with MSGBIND.
+;º
+;º	The idea is to make it easy to adapt the program for use in countries
+;º	where English is not the principal language.
+;º
+;º	Jon Saxton, April 1990
+;º
+;ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+FFF
+;
+;	English
+;
+FFF0001I: Fast False Floppy Formatter - Jon Saxton - 17 April 1990
+FFF0002I:                 English language version
+FFF0003I: You need to specify at least a (floppy) drive name on the command line
+FFF0004I: Error retrieving volume label: %0
+FFF0005I: buffer overflow
+FFF0006I: invalid drive
+FFF0007I: invalid level of detail requested
+FFF0008I: no volume label
+FFF0009I: reason unknown
+FFF0010I: Error opening disk %1 in DASD mode: %0
+FFF0011I: access denied
+FFF0012I: drive locked
+FFF0013I: not found
+FFF0014I: invalid access
+FFF0015I: invalid parameter
+FFF0016I: not a DOS or OS/2 disk
+FFF0017I: open failed
+FFF0018I: path not found
+FFF0019I: share buffer exceeded
+FFF0020I: sharing violation
+FFF0021I: too many open files
+FFF0022I: Error in fetching characteristics of disk in drive %1: %0
+FFF0023I: Reading the File Allocation Table
+FFF0024I: Clearing the File Allocation Table
+FFF0025I: Rewriting the File Allocation Table
+FFF0026I: Scrubbing the directory
+FFF0027I: Writing volume label
+FFF0028I: Rewriting volume label
+FFF0029I: Unable to allocate memory for FAT image(s)
+FFF0030I: Failure while reading FAT: 
+FFF0031I: Failure while writing FAT or directory: %0
+FFF0032I: -
+FFF0033I: -
+FFF0034I: -
+FFF0035I: -
+FFF0036I: -
+FFF0037I: -
+FFF0038I: -
+FFF0039I: -
+FFF0040I: -
+;
+;	Fran‡ais
+;
+FFF0041I: Une programme pour effacer rapidement les fichiers de disquettes
+FFF0042I:          Version Fran‡aise - Jon Saxton - 17 Avril 1990
+FFF0043I: Donnez le nom d'un lecteur de disquettes sur la ligne de commande.
+FFF0044I: Erreur en recherchant l'‚tiquette du volume: %0
+FFF0045I: d‚bordement de la zone tampon.
+FFF0046I: lecter de disquettes non valide.
+FFF0047I: niveau de d‚tail non valide
+FFF0048I: ‚tiquette de volume absente.
+FFF0049I: raison inconnue.
+FFF0050I: Erreur … l'ouverture de la disquette %1 en mode DASD: %0
+FFF0051I: accŠs prohib‚.
+FFF0052I: lecteur de disquettes ferm‚.
+FFF0053I: n'a pas ‚t‚ trouv‚.
+FFF0054I: accŠs non valide.
+FFF0055I: paramˆtre non valide.
+FFF0056I: ce n'est pas une disquette de DOS ou OS/2.
+FFF0057I: ouverture non fructeuse.
+FFF0058I: librairie non trouv‚e.
+FFF0059I: la zone tampon partag‚e a ‚t‚ d‚pass‚e.
+FFF0060I: violation de l'accŠs partag‚.
+FFF0061I: trop de fichiers ouvertes simultan‚ment.
+FFF0062I: Erreur en recherchant les sp‚cifications de la disquette %1: %0
+FFF0063I: Lecture de la Table d'Allocation de Fichiers (TAF).
+FFF0064I: Effacemant de la Table d'Allocation de Fichiers (TAF).
+FFF0065I: R‚-‚criture de la Table d'Allocation de Fichiers (TAF).
+FFF0066I: Effacement de la librairie.
+FFF0067I: criture de l'‚tiquette du volume.
+FFF0068I: R‚-‚criture de l'‚tiquette du volume.
+FFF0069I: M‚moire insuffisiant pour les images de la TAF.
+FFF0070I: Erreur en lisant la TAF: 
+FFF0071I: Erreur en ‚crivant la TAF ou la librairie: %0
+FFF0072I: -
+FFF0073I: -
+FFF0074I: -
+FFF0075I: -
+FFF0076I: -
+FFF0077I: -
+FFF0078I: -
+FFF0079I: -
+FFF0080I: -
+;
+;	Nederlands
+;
+FFF0081I: Snel een diskette leegmaken - Jon Saxton - 17 april 1990
+FFF0082I:                 Nederlandse versie
+FFF0083I: U moet minstens een (diskette) drive letter achter het commando opgeven
+FFF0084I: Fout bij lezen van het volume label: %0
+FFF0085I: buffer overloop
+FFF0086I: ongeldige diskette drive opgegeven
+FFF0087I: ongeldig detail niveau gevraagd
+FFF0088I: diskette heeft geen naam 
+FFF0089I: reden onbekend
+FFF0090I: Fout bij openen van direkte toegang op diskette in drive %1: %0
+FFF0091I: toegang geweigerd
+FFF0092I: drive op slot
+FFF0093I: niet gevonden
+FFF0094I: ongeldige toegang
+FFF0095I: ongeldige parameter
+FFF0096I: dit is niet een DOS of OS/2 diskette
+FFF0097I: open is mislukt
+FFF0098I: pad niet gevonden
+FFF0099I: buffer voor uitwisselen gegevens is te klein
+FFF0100I: overtreding bij uitwisselen gegevens
+FFF0101I: te veel bestanden open
+FFF0102I: Fout bij lezen van de kenmerken van de diskette in drive %1: %0
+FFF0103I: De FAT wordt gelezen
+FFF0104I: De FAT wordt leeggemaakt
+FFF0105I: De FAT wordt herschreven
+FFF0106I: De directory wordt leeggemaakt
+FFF0107I: Diskette naam wordt geschreven
+FFF0108I: Diskette naam wordt herschreven
+FFF0109I: Niet in staat om geheugen toe te wijzen voor FAT copie(s)
+FFF0110I: Storing tijdens het lezen van de FAT: 
+FFF0111I: Storing tijdens het schrijven van de FAT of directory: %0
+FFF0112I: -
+FFF0113I: -
+FFF0114I: -
+FFF0115I: -
+FFF0116I: -
+FFF0117I: -
+FFF0118I: -
+FFF0119I: -
+FFF0120I: -
+
